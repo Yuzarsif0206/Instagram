@@ -1,0 +1,93 @@
+body {
+    background: #0c0f16;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+.btn {
+    position: absolute;
+    top: 100px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.container {
+    width: 85%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    background: #000;
+    border-radius: 5px;
+    top: 100px;
+}
+
+.carousel-container {
+    width: 100px;
+    height: 200px;
+    position: relative;
+    overflow: "hidden";
+    padding-top: 20px;
+}
+
+.carousel {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: transform 800ms ease;
+}
+
+.slide {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    user-select: none;
+    position: absolute;
+}
+
+.story-status {
+    display: inline-flexbox;
+    margin-left: 15px;
+}
+
+.story-status img {
+    width: 135px;
+    height: 135px;
+    user-select: none;
+}
+
+.story-status p {
+    color: #fff;
+}
+
+.story-status img .story {
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, .75);
+    padding: 2px;
+}
+
+.story-status img.has-story {
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)
+}
+
+.left-btn {
+    left: 20px;
+    z-index: 2;
+}
+
+.right-btn {
+    right: 40px;
+}
